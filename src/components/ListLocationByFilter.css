@@ -1,0 +1,103 @@
+.generalContainer {
+    padding-bottom: 50px;
+  }
+
+.headerContainer {
+    font-size: 11px;
+    padding-left: 2.8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.splitContent {
+    width: 20%;
+}
+
+.splitContentRange {
+    width: 25%;
+}
+
+.splitContentSearch {
+    text-align: right; 
+    width: 12%;
+}
+
+.labelGeneral {
+    font-weight: 600;
+}
+
+.buttonSearch {
+    width: 100%;
+    border-radius: 0;
+    background-color: #6dadf7;
+    color: #fff;
+}
+
+.containerList {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.containerListItem {
+    padding-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 23%;
+    min-height: 270px;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.containerImageDash {
+    width: 100%; 
+    object-fit: cover;
+    display: block;
+    max-height: 100%;
+}
+
+.containerListImage {
+    width: 100%;
+    background-color: #3f5cf5;
+    height: 120px;
+}
+
+.containerInfoDetail {
+    margin-top: 10px; 
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerInfoTitle {
+    font-size: 14px; 
+    font-weight: 600;
+}
+
+.containerInfoLocation {
+    font-size: 12px; 
+    color: #444;
+}
+
+.containerRooms {
+    font-size: 10px; 
+    color: #999; 
+    display: flex;
+}
+
+.containerPrice {
+    font-weight: 500;
+}
+
+.buttonRedirect {
+    background-color: #6dadf7;
+    color: #fff;
+    border-radius: 0;
+}
